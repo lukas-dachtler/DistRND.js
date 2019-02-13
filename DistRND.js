@@ -3,6 +3,9 @@
   * Copyright (c) 2019 Lukas Dachtler
   * Licensed under MIT (https://github.com/lukas-dachtler/DistRND.js/blob/master/LICENSE.md)
   */
+
+module.exports = DistRND;
+
 function DistRND(min, max, spread = 0) {
     let _negDeviation = new DistRND_DataStructure();
     let _posDeviation = new DistRND_DataStructure();

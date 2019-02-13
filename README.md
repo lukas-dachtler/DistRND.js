@@ -1,11 +1,20 @@
 # DistRND.js
+[![NPM version](https://img.shields.io/npm/v/distributed-randomizer.svg?style=flat)]()
+[![NPM Downloads](https://img.shields.io/npm/dt/distributed-randomizer.svg)]()
 #### DistRND is a small PRNG (pseudorandom number generator) which also evenly distributes the random values over the given range.
 ## ■ Install
 ```html
-<script type="text/javascript" src="DistRND.min.js"></script>
+<script src="DistRND.min.js"></script>
+```
+## ■ Install (NPM)
+```
+npm i distributed-randomizer
 ```
 ## ■ Use
 ```js
+//Add this line when using NPM:
+//const DistRND = require('distributed-randomizer');
+
 const rand = new DistRND(min, max);
 rand.next();
 ```
@@ -43,7 +52,7 @@ As you can see the normal `Math.random()` function can vary quite a bit from the
 - If average updates: Reevaluate active scope
 ## ■ FAQ
 ## • Is it still random?
->Yes. The numbers in the active scope are sill chosen at random with `Math.random()`.
+>Yes. The numbers in the active scope are still chosen at random with `Math.random()`.
 ## • Why manipulate randomness?
 >Example 1: When you want to train a **Neural Network** you could use this to train it with random sample data but also ensure that it won't get overtrained.
 

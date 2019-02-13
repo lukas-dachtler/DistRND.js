@@ -1,0 +1,20 @@
+{
+  "name": "distributed-randomizer",
+  "version": "1.0.0",
+  "author": "Lukas Dachtler <info@lukas-dachtler.de> (http://www.lukas-dachtler.de)",
+  "description": "DistRND.js is a randomizer which distributes the numbers evenly.",
+  "license": "MIT",
+  "keywords": [
+    "random",
+    "numbers",
+    "generator",
+    "distributed",
+    "even"
+  ],
+  "homepage": "https://github.com/lukas-dachtler/DistRND.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukas-dachtler/DistRND.js.git"
+  },
+  "main": "DistRND.js"
+}
